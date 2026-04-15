@@ -70,8 +70,8 @@
             OrganizerName = "Alice",
             Topic = "Project Kickoff",
             Date = DateTime.Today,
-            StartTime = DateTime.Today.AddHours(9),
-            EndTime = DateTime.Today.AddHours(10),
+            StartTime = new TimeSpan(9,0,0),
+            EndTime = new TimeSpan(10,0,0),
             Status = "Confirmed"
         },
         new Reservation
@@ -81,8 +81,8 @@
             OrganizerName = "Bob",
             Topic = "Team Meeting",
             Date = DateTime.Today,
-            StartTime = DateTime.Today.AddHours(11),
-            EndTime = DateTime.Today.AddHours(12),
+            StartTime=new TimeSpan(11,0,0),
+            EndTime=new TimeSpan(12,0,0),
             Status = "Confirmed"
         },
         new Reservation
@@ -92,8 +92,8 @@
             OrganizerName = "Charlie",
             Topic = "Client Presentation",
             Date = DateTime.Today,
-            StartTime = DateTime.Today.AddHours(14),
-            EndTime = DateTime.Today.AddHours(15),
+            StartTime = new TimeSpan(13,0,0),
+            EndTime = new TimeSpan(14,0,0),
             Status = "Confirmed"
         },
         new Reservation
@@ -103,8 +103,8 @@
             OrganizerName = "David",
             Topic = "Budget Review",
             Date = DateTime.Today,
-            StartTime = DateTime.Today.AddHours(16),
-            EndTime = DateTime.Today.AddHours(17),
+            StartTime=new TimeSpan(16,0,0),
+            EndTime=new TimeSpan(17,0,0),
             Status = "Confirmed"
         },
         new Reservation
@@ -114,8 +114,8 @@
             OrganizerName = "Eve",
             Topic = "Strategy Meeting",
             Date = DateTime.Today,
-            StartTime = DateTime.Today.AddHours(10),
-            EndTime = DateTime.Today.AddHours(11),
+            StartTime = new TimeSpan(10,0,0),
+            EndTime=new TimeSpan(11,0,0),
             Status = "Confirmed"
         }
     };
